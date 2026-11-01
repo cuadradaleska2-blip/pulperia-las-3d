@@ -1,0 +1,27 @@
+PULPERÍA LAS 3D — ACTUALIZACIÓN 3 (PRUEBA)
+
+ANTES DE SUBIR:
+1. En la app actual, Más > Respaldos > Descargar respaldo. Confirmá que el archivo .json esté guardado.
+2. No desinstales la aplicación, no borres caché/datos, no cambies de dominio ni repositorio.
+3. Subí los archivos de esta carpeta a la raíz del MISMO repositorio de GitHub, reemplazando los existentes.
+4. Esperá la publicación de GitHub Pages y recargá la aplicación.
+
+IMPORTANTE:
+- La clave localStorage sigue siendo pulperia3d_v1. Esta actualización NO borra los registros.
+- Los datos están guardados en el navegador/dispositivo, no en GitHub. Un cambio de navegador o la limpieza de datos puede hacerlos inaccesibles sin restaurar respaldo.
+- La restauración REEMPLAZA todos los datos; conservá respaldos antes de probarla.
+- Esta versión tiene revisión de sintaxis, pero NO está probada exhaustivamente en el Samsung. Probá con datos ficticios antes de usarla con dinero real.
+
+MEJORAS:
+- Fichas de clientes con historial de fiados/abonos, saldo, teléfono opcional y WhatsApp.
+- Historial de ventas con búsqueda y fecha.
+- Anulación auditada de ventas, con restitución de inventario; si hay abonos incompatibles se bloquea.
+- Desglose diario de caja y fondo inicial.
+- Botones de venta rápida para 1/4, 1/2 y 1 libra, cuando corresponda.
+- Recibos de WhatsApp más detallados.
+- Entrada de mercadería y costo promedio.
+- Precios y ganancias por producto.
+- Alertas y registro de correcciones.
+- Respaldo JSON ampliado y restauración compatible con el formato anterior.
+
+LÍMITE: No hay sincronización en la nube. No reemplaza un sistema contable auditado.
