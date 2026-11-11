@@ -1,0 +1,27 @@
+PULPERÍA LAS 3D — CALCULADORA UNIVERSAL
+
+Esta actualización sirve para TODOS los productos, no solo aceite.
+No modifica los archivos app.js ni mejoras.js, ni borra datos.
+
+PASOS EN GITHUB (MISMO REPOSITORIO):
+1. Subí el archivo calculadora-productos.js a la raíz del repositorio.
+2. Abrí index.html, tocá Editar (lápiz).
+3. Cerca del final, buscá esta línea:
+   <script src="mejoras.js"></script>
+4. INMEDIATAMENTE DESPUÉS, añadí esta otra línea:
+   <script src="calculadora-productos.js"></script>
+5. Guardá (Commit changes) y esperá a que GitHub Pages publique.
+6. Cerrá y abrí de nuevo la aplicación. Si no cambia, actualizá la página.
+
+USO:
+- Nombre: Arroz. Presentación: Quintal. Cantidad: 100. Unidad: lb.
+- Nombre: Aceite. Presentación: Bidón. Cantidad: 20. Unidad: litro.
+- Nombre: Caramelos. Presentación: Bolsa. Cantidad: 100. Unidad: unidad.
+- Ingresá costo total, porcentaje de ganancia y tocá Aplicar precio sugerido.
+- Ajustá manualmente el precio si querés.
+- Existencia inicial se ingresa en unidades de venta: 1 bidón de 20 litros = 20 litros.
+- Para vender medio litro, en Ventas indicá cantidad 0.5 (no otra unidad de inventario).
+
+IMPORTANTE: la ganancia es sobre el costo (no margen sobre ventas). El cálculo
+no incluye otros gastos no registrados. Probá primero con datos de ejemplo.
+No desinstales la aplicación ni borres sus datos.
