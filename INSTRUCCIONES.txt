@@ -1,0 +1,8 @@
+NOVA3D - CORRECCION PARA CHAT ANTIGUO
+
+1) En GitHub, en pulperia-las-3d, sustituye UNICAMENTE el archivo sw.js por este.
+2) Conserva index.html, app.js, mejoras.js, nova3d-theme.js y tus datos.
+3) Abre la aplicacion conectada a internet, cierra y abre de nuevo. Si hace falta, actualiza la pagina dos veces.
+4) En Nova IA debe aparecer Contraseña privada de Nova IA / Conectar chat.
+
+Nota: la causa probable es una copia antigua del JavaScript en cache. Si despues de cargar este service worker actualizado sigue igual, comprobaremos la publicacion de GitHub Pages. No borrar datos ni desinstalar la app.
